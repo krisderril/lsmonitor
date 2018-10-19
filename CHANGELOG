@@ -9,3 +9,4 @@
           added user defined function, execute on pressed function button, amber led blink fast during script execution
 - 2016.01 Modified to work with 3.16.0-4-kirkwood #1 Debian 3.16.7-ckt20-1+deb8u2 (2016-01-02) armv5tel GNU/Linux
 - 2016.02 Modified to work with 3.16.0-4-kirkwood #1 Debian 3.16.7-ckt20-1+deb8u3 (2016-01-17) armv5tel GNU/Linux
+- 2018.10 Modified to work with 4.9.0-8-marvell #1 Debian 4.9.110-3+deb9u6 (2018-10-08) armv5tel GNU/Linux on a LS-VL

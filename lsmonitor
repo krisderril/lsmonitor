@@ -27,12 +27,13 @@ PIDFILE=/var/run/lsmonitor_daemon.pid
 LOGFILE=/var/log/lsmonitor.log
 
 # Control interfaces
-LED_DIR="/sys/devices/gpio_leds/leds"
-LINFO="lsxl:amber:info"
-LPOWER="lsxl:blue:power"
-LBFUNC="lsxl:blue:func"
-LAFUNC="lsxl:red:func"
-LALARM="lsxl:red:alarm"
+#LED_DIR="/sys/devices/gpio_leds/leds"
+LED_DIR="/sys/bus/platform/drivers/leds-gpio/gpio_leds/leds"
+LINFO="linkstation:amber:info"
+LPOWER="linkstation:blue:power"
+LBFUNC="linkstation:blue:function"
+LAFUNC="linkstation:red:function"
+LALARM="linkstation:red:alarm"
 
 FAN_CTRL=/sys/bus/platform/drivers/gpio-fan/gpio_fan/hwmon/hwmon0
 FAN_TARGET=${FAN_CTRL}/fan1_target
